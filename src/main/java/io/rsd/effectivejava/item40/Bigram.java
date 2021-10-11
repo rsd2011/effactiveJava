@@ -31,7 +31,6 @@ public class Bigram {
     }
 
     public static void main(String[] args) {
-        ObjectOutputStream
         Set<Bigram> s = new HashSet<>();
         for (int i=0; i < 10; i++)
             for (char ch = 'a'; ch <= 'z'; ch++)
