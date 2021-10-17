@@ -37,5 +37,6 @@ public class LambdaExpression {
         //Collections.sort(words, Comparator.comparingInt(String::length));
         words.sort(Comparator.comparingInt(String::length));
         System.out.println(words);
+        System.out.println(Operation.PLUS.apply(1,2));
     }
 }
